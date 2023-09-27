@@ -7,18 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     tools:ignore="ExtraText"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome To GeeksforGeeks"
+    <ImageView
+        android:id="@+id/SplashScreenImage"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/polan_news"
+        />
 
-        android:textSize="20dp"
-         />
-
-
-
-
-
-    </LinearLayout>
+</LinearLayout>
